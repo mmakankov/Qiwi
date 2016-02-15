@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Qiwi
+
+  Created by Admin on 14.02.16.
+  Copyright © 2016 mmakankov. All rights reserved.
+*/
+
+
+"MainViewControllerTitle" = "Users";
+"BalanceViewControllerTitle" = "Balance";
+
+"AlertButtonTitleOk" = "Ok";
+"AlertButtonTitleTryAgain" = "Try again";

@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84A8AC9D1C708285007A2B95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8AC9C1C708285007A2B95 /* main.m */; };
+		84A8ACA01C708285007A2B95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8AC9F1C708285007A2B95 /* AppDelegate.m */; };
+		84A8ACAE1C708285007A2B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A8ACAD1C708285007A2B95 /* Assets.xcassets */; };
+		84A8ACB11C708285007A2B95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A8ACAF1C708285007A2B95 /* LaunchScreen.storyboard */; };
+		84A8ACBC1C708285007A2B95 /* QiwiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8ACBB1C708285007A2B95 /* QiwiTests.m */; };
+		84A8ACC71C708285007A2B95 /* QiwiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8ACC61C708285007A2B95 /* QiwiUITests.m */; };
+		84A8ACD91C709654007A2B95 /* Qiwi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84A8ACD71C709654007A2B95 /* Qiwi.xcdatamodeld */; };
+		84A8ACDF1C70965E007A2B95 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8ACDC1C70965E007A2B95 /* DetailViewController.m */; };
+		84A8ACE01C70965E007A2B95 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8ACDE1C70965E007A2B95 /* MainViewController.m */; };
+		84A8ACE31C70969A007A2B95 /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8ACE21C70969A007A2B95 /* DataBaseManager.m */; };
+		84A8AD431C70A8FA007A2B95 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A8AD421C70A8FA007A2B95 /* MobileCoreServices.framework */; };
+		84A8AD451C70A922007A2B95 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A8AD441C70A922007A2B95 /* Security.framework */; };
+		84A8AD471C70A937007A2B95 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A8AD461C70A937007A2B95 /* CoreData.framework */; };
+		84A8AD491C70A93E007A2B95 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A8AD481C70A93E007A2B95 /* CFNetwork.framework */; };
+		84A8AD521C70AFAC007A2B95 /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8AD4B1C70AFAC007A2B95 /* User+CoreDataProperties.m */; };
+		84A8AD531C70AFAC007A2B95 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8AD4D1C70AFAC007A2B95 /* User.m */; };
+		84A8AD541C70AFAC007A2B95 /* Balance+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8AD4F1C70AFAC007A2B95 /* Balance+CoreDataProperties.m */; };
+		84A8AD551C70AFAC007A2B95 /* Balance.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8AD511C70AFAC007A2B95 /* Balance.m */; };
+		84A8AD571C70C17B007A2B95 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A8AD561C70C17B007A2B95 /* MainViewController.xib */; };
+		84A8AD5C1C70C454007A2B95 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8AD5A1C70C454007A2B95 /* MainTableViewCell.m */; };
+		84A8AD5D1C70C454007A2B95 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A8AD5B1C70C454007A2B95 /* MainTableViewCell.xib */; };
+		84A8AD601C70CA9A007A2B95 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8AD5F1C70CA9A007A2B95 /* BaseViewController.m */; };
+		84A8AD661C70F47D007A2B95 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84A8AD651C70F47D007A2B95 /* Localizable.strings */; };
+		BBCDBC5805B95C0AEC57DE86 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA26D70FCB83FD8968A2897 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84A8ACB81C708285007A2B95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A8AC901C708285007A2B95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A8AC971C708285007A2B95;
+			remoteInfo = Qiwi;
+		};
+		84A8ACC31C708285007A2B95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A8AC901C708285007A2B95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A8AC971C708285007A2B95;
+			remoteInfo = Qiwi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E740A420E7223811C2F1189 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4DA26D70FCB83FD8968A2897 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A8AC981C708285007A2B95 /* Qiwi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qiwi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A8AC9C1C708285007A2B95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84A8AC9E1C708285007A2B95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84A8AC9F1C708285007A2B95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84A8ACAD1C708285007A2B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A8ACB01C708285007A2B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84A8ACB21C708285007A2B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A8ACB71C708285007A2B95 /* QiwiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiwiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A8ACBB1C708285007A2B95 /* QiwiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiwiTests.m; sourceTree = "<group>"; };
+		84A8ACBD1C708285007A2B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A8ACC21C708285007A2B95 /* QiwiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiwiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A8ACC61C708285007A2B95 /* QiwiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiwiUITests.m; sourceTree = "<group>"; };
+		84A8ACC81C708285007A2B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A8ACD41C7095A7007A2B95 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		84A8ACD81C709654007A2B95 /* Qiwi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Qiwi.xcdatamodel; sourceTree = "<group>"; };
+		84A8ACDB1C70965E007A2B95 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		84A8ACDC1C70965E007A2B95 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		84A8ACDD1C70965E007A2B95 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		84A8ACDE1C70965E007A2B95 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		84A8ACE11C70969A007A2B95 /* DataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseManager.h; sourceTree = "<group>"; };
+		84A8ACE21C70969A007A2B95 /* DataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseManager.m; sourceTree = "<group>"; };
+		84A8AD421C70A8FA007A2B95 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		84A8AD441C70A922007A2B95 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		84A8AD461C70A937007A2B95 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84A8AD481C70A93E007A2B95 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		84A8AD4A1C70AFAC007A2B95 /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		84A8AD4B1C70AFAC007A2B95 /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		84A8AD4C1C70AFAC007A2B95 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		84A8AD4D1C70AFAC007A2B95 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		84A8AD4E1C70AFAC007A2B95 /* Balance+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Balance+CoreDataProperties.h"; sourceTree = "<group>"; };
+		84A8AD4F1C70AFAC007A2B95 /* Balance+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Balance+CoreDataProperties.m"; sourceTree = "<group>"; };
+		84A8AD501C70AFAC007A2B95 /* Balance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Balance.h; sourceTree = "<group>"; };
+		84A8AD511C70AFAC007A2B95 /* Balance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Balance.m; sourceTree = "<group>"; };
+		84A8AD561C70C17B007A2B95 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		84A8AD591C70C454007A2B95 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		84A8AD5A1C70C454007A2B95 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		84A8AD5B1C70C454007A2B95 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		84A8AD5E1C70CA9A007A2B95 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		84A8AD5F1C70CA9A007A2B95 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		84A8AD651C70F47D007A2B95 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		EBD62D993B528F981F5F15BF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A8AC951C708285007A2B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A8AD491C70A93E007A2B95 /* CFNetwork.framework in Frameworks */,
+				84A8AD471C70A937007A2B95 /* CoreData.framework in Frameworks */,
+				84A8AD451C70A922007A2B95 /* Security.framework in Frameworks */,
+				84A8AD431C70A8FA007A2B95 /* MobileCoreServices.framework in Frameworks */,
+				BBCDBC5805B95C0AEC57DE86 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A8ACB41C708285007A2B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A8ACBF1C708285007A2B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CC233C46A0CAF700E270D0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBD62D993B528F981F5F15BF /* Pods.debug.xcconfig */,
+				2E740A420E7223811C2F1189 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84A8AC8F1C708285007A2B95 = {
+			isa = PBXGroup;
+			children = (
+				84A8AC9A1C708285007A2B95 /* Qiwi */,
+				84A8ACBA1C708285007A2B95 /* QiwiTests */,
+				84A8ACC51C708285007A2B95 /* QiwiUITests */,
+				84A8AC991C708285007A2B95 /* Products */,
+				2CC233C46A0CAF700E270D0F /* Pods */,
+				C4D9BE95767BC8B398078FC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84A8AC991C708285007A2B95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A8AC981C708285007A2B95 /* Qiwi.app */,
+				84A8ACB71C708285007A2B95 /* QiwiTests.xctest */,
+				84A8ACC21C708285007A2B95 /* QiwiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A8AC9A1C708285007A2B95 /* Qiwi */ = {
+			isa = PBXGroup;
+			children = (
+				84A8AC9E1C708285007A2B95 /* AppDelegate.h */,
+				84A8AC9F1C708285007A2B95 /* AppDelegate.m */,
+				84A8ACDA1C70965E007A2B95 /* ViewControllers */,
+				84A8ACD51C709654007A2B95 /* DataBase */,
+				84A8AC9B1C708285007A2B95 /* Supporting Files */,
+			);
+			path = Qiwi;
+			sourceTree = "<group>";
+		};
+		84A8AC9B1C708285007A2B95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84A8ACAD1C708285007A2B95 /* Assets.xcassets */,
+				84A8ACAF1C708285007A2B95 /* LaunchScreen.storyboard */,
+				84A8ACB21C708285007A2B95 /* Info.plist */,
+				84A8AC9C1C708285007A2B95 /* main.m */,
+				84A8ACD41C7095A7007A2B95 /* PrefixHeader.pch */,
+				84A8AD651C70F47D007A2B95 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84A8ACBA1C708285007A2B95 /* QiwiTests */ = {
+			isa = PBXGroup;
+			children = (
+				84A8ACBB1C708285007A2B95 /* QiwiTests.m */,
+				84A8ACBD1C708285007A2B95 /* Info.plist */,
+			);
+			path = QiwiTests;
+			sourceTree = "<group>";
+		};
+		84A8ACC51C708285007A2B95 /* QiwiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84A8ACC61C708285007A2B95 /* QiwiUITests.m */,
+				84A8ACC81C708285007A2B95 /* Info.plist */,
+			);
+			path = QiwiUITests;
+			sourceTree = "<group>";
+		};
+		84A8ACD51C709654007A2B95 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				84A8ACE11C70969A007A2B95 /* DataBaseManager.h */,
+				84A8ACE21C70969A007A2B95 /* DataBaseManager.m */,
+				84A8ACD71C709654007A2B95 /* Qiwi.xcdatamodeld */,
+				84A8ACD61C709654007A2B95 /* Entities */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		84A8ACD61C709654007A2B95 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				84A8AD4A1C70AFAC007A2B95 /* User+CoreDataProperties.h */,
+				84A8AD4B1C70AFAC007A2B95 /* User+CoreDataProperties.m */,
+				84A8AD4C1C70AFAC007A2B95 /* User.h */,
+				84A8AD4D1C70AFAC007A2B95 /* User.m */,
+				84A8AD4E1C70AFAC007A2B95 /* Balance+CoreDataProperties.h */,
+				84A8AD4F1C70AFAC007A2B95 /* Balance+CoreDataProperties.m */,
+				84A8AD501C70AFAC007A2B95 /* Balance.h */,
+				84A8AD511C70AFAC007A2B95 /* Balance.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		84A8ACDA1C70965E007A2B95 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84A8AD611C70CAA1007A2B95 /* Base */,
+				84A8AD581C70C42A007A2B95 /* Cells */,
+				84A8ACDD1C70965E007A2B95 /* MainViewController.h */,
+				84A8ACDE1C70965E007A2B95 /* MainViewController.m */,
+				84A8AD561C70C17B007A2B95 /* MainViewController.xib */,
+				84A8ACDB1C70965E007A2B95 /* DetailViewController.h */,
+				84A8ACDC1C70965E007A2B95 /* DetailViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84A8AD581C70C42A007A2B95 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84A8AD591C70C454007A2B95 /* MainTableViewCell.h */,
+				84A8AD5A1C70C454007A2B95 /* MainTableViewCell.m */,
+				84A8AD5B1C70C454007A2B95 /* MainTableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		84A8AD611C70CAA1007A2B95 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				84A8AD5E1C70CA9A007A2B95 /* BaseViewController.h */,
+				84A8AD5F1C70CA9A007A2B95 /* BaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		C4D9BE95767BC8B398078FC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84A8AD481C70A93E007A2B95 /* CFNetwork.framework */,
+				84A8AD461C70A937007A2B95 /* CoreData.framework */,
+				84A8AD441C70A922007A2B95 /* Security.framework */,
+				84A8AD421C70A8FA007A2B95 /* MobileCoreServices.framework */,
+				4DA26D70FCB83FD8968A2897 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A8AC971C708285007A2B95 /* Qiwi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A8ACCB1C708285007A2B95 /* Build configuration list for PBXNativeTarget "Qiwi" */;
+			buildPhases = (
+				61C73C6B4552B184E7AA7CC4 /* Check Pods Manifest.lock */,
+				84A8AC941C708285007A2B95 /* Sources */,
+				84A8AC951C708285007A2B95 /* Frameworks */,
+				84A8AC961C708285007A2B95 /* Resources */,
+				9F7C9280185DCD8321304421 /* Embed Pods Frameworks */,
+				503A318A49576A6ACAE93D44 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qiwi;
+			productName = Qiwi;
+			productReference = 84A8AC981C708285007A2B95 /* Qiwi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84A8ACB61C708285007A2B95 /* QiwiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A8ACCE1C708285007A2B95 /* Build configuration list for PBXNativeTarget "QiwiTests" */;
+			buildPhases = (
+				84A8ACB31C708285007A2B95 /* Sources */,
+				84A8ACB41C708285007A2B95 /* Frameworks */,
+				84A8ACB51C708285007A2B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A8ACB91C708285007A2B95 /* PBXTargetDependency */,
+			);
+			name = QiwiTests;
+			productName = QiwiTests;
+			productReference = 84A8ACB71C708285007A2B95 /* QiwiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84A8ACC11C708285007A2B95 /* QiwiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A8ACD11C708285007A2B95 /* Build configuration list for PBXNativeTarget "QiwiUITests" */;
+			buildPhases = (
+				84A8ACBE1C708285007A2B95 /* Sources */,
+				84A8ACBF1C708285007A2B95 /* Frameworks */,
+				84A8ACC01C708285007A2B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A8ACC41C708285007A2B95 /* PBXTargetDependency */,
+			);
+			name = QiwiUITests;
+			productName = QiwiUITests;
+			productReference = 84A8ACC21C708285007A2B95 /* QiwiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A8AC901C708285007A2B95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mmakankov;
+				TargetAttributes = {
+					84A8AC971C708285007A2B95 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					84A8ACB61C708285007A2B95 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 84A8AC971C708285007A2B95;
+					};
+					84A8ACC11C708285007A2B95 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 84A8AC971C708285007A2B95;
+					};
+				};
+			};
+			buildConfigurationList = 84A8AC931C708285007A2B95 /* Build configuration list for PBXProject "Qiwi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84A8AC8F1C708285007A2B95;
+			productRefGroup = 84A8AC991C708285007A2B95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A8AC971C708285007A2B95 /* Qiwi */,
+				84A8ACB61C708285007A2B95 /* QiwiTests */,
+				84A8ACC11C708285007A2B95 /* QiwiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A8AC961C708285007A2B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A8AD661C70F47D007A2B95 /* Localizable.strings in Resources */,
+				84A8ACB11C708285007A2B95 /* LaunchScreen.storyboard in Resources */,
+				84A8AD571C70C17B007A2B95 /* MainViewController.xib in Resources */,
+				84A8AD5D1C70C454007A2B95 /* MainTableViewCell.xib in Resources */,
+				84A8ACAE1C708285007A2B95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A8ACB51C708285007A2B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A8ACC01C708285007A2B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		503A318A49576A6ACAE93D44 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61C73C6B4552B184E7AA7CC4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F7C9280185DCD8321304421 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A8AC941C708285007A2B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A8AD551C70AFAC007A2B95 /* Balance.m in Sources */,
+				84A8AD601C70CA9A007A2B95 /* BaseViewController.m in Sources */,
+				84A8AD5C1C70C454007A2B95 /* MainTableViewCell.m in Sources */,
+				84A8AD531C70AFAC007A2B95 /* User.m in Sources */,
+				84A8AD521C70AFAC007A2B95 /* User+CoreDataProperties.m in Sources */,
+				84A8ACA01C708285007A2B95 /* AppDelegate.m in Sources */,
+				84A8AD541C70AFAC007A2B95 /* Balance+CoreDataProperties.m in Sources */,
+				84A8AC9D1C708285007A2B95 /* main.m in Sources */,
+				84A8ACE31C70969A007A2B95 /* DataBaseManager.m in Sources */,
+				84A8ACE01C70965E007A2B95 /* MainViewController.m in Sources */,
+				84A8ACD91C709654007A2B95 /* Qiwi.xcdatamodeld in Sources */,
+				84A8ACDF1C70965E007A2B95 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A8ACB31C708285007A2B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A8ACBC1C708285007A2B95 /* QiwiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A8ACBE1C708285007A2B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A8ACC71C708285007A2B95 /* QiwiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84A8ACB91C708285007A2B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A8AC971C708285007A2B95 /* Qiwi */;
+			targetProxy = 84A8ACB81C708285007A2B95 /* PBXContainerItemProxy */;
+		};
+		84A8ACC41C708285007A2B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A8AC971C708285007A2B95 /* Qiwi */;
+			targetProxy = 84A8ACC31C708285007A2B95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84A8ACAF1C708285007A2B95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A8ACB01C708285007A2B95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A8ACC91C708285007A2B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A8ACCA1C708285007A2B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A8ACCC1C708285007A2B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBD62D993B528F981F5F15BF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/Qiwi/PrefixHeader.pch";
+				INFOPLIST_FILE = Qiwi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QW.Qiwi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Pods/**";
+			};
+			name = Debug;
+		};
+		84A8ACCD1C708285007A2B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E740A420E7223811C2F1189 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/Qiwi/PrefixHeader.pch";
+				INFOPLIST_FILE = Qiwi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QW.Qiwi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Pods/**";
+			};
+			name = Release;
+		};
+		84A8ACCF1C708285007A2B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QiwiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QW.QiwiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qiwi.app/Qiwi";
+			};
+			name = Debug;
+		};
+		84A8ACD01C708285007A2B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QiwiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QW.QiwiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qiwi.app/Qiwi";
+			};
+			name = Release;
+		};
+		84A8ACD21C708285007A2B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QiwiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QW.QiwiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Qiwi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		84A8ACD31C708285007A2B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QiwiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QW.QiwiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Qiwi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A8AC931C708285007A2B95 /* Build configuration list for PBXProject "Qiwi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A8ACC91C708285007A2B95 /* Debug */,
+				84A8ACCA1C708285007A2B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A8ACCB1C708285007A2B95 /* Build configuration list for PBXNativeTarget "Qiwi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A8ACCC1C708285007A2B95 /* Debug */,
+				84A8ACCD1C708285007A2B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A8ACCE1C708285007A2B95 /* Build configuration list for PBXNativeTarget "QiwiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A8ACCF1C708285007A2B95 /* Debug */,
+				84A8ACD01C708285007A2B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A8ACD11C708285007A2B95 /* Build configuration list for PBXNativeTarget "QiwiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A8ACD21C708285007A2B95 /* Debug */,
+				84A8ACD31C708285007A2B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84A8ACD71C709654007A2B95 /* Qiwi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84A8ACD81C709654007A2B95 /* Qiwi.xcdatamodel */,
+			);
+			currentVersion = 84A8ACD81C709654007A2B95 /* Qiwi.xcdatamodel */;
+			path = Qiwi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84A8AC901C708285007A2B95 /* Project object */;
+}

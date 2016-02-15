@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Automatic">
+    <entity name="Balance" representedClassName="Balance" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="balances" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 32" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <relationship name="balances" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Balance" inverseName="user" inverseEntity="Balance" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <elements>
+        <element name="Balance" positionX="261" positionY="207" width="128" height="90"/>
+        <element name="User" positionX="261" positionY="189" width="128" height="88"/>
+    </elements>
+</model>
